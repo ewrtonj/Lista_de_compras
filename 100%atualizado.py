@@ -136,7 +136,7 @@ def renomear_produto():
     while True:
         produto_novo = input('Digite o novo nome do produto: ')
         if produto_novo.strip() and produto_novo.replace(" ", "").isalpha():
-            produto_selecionado['produto'] = produto_novo  # Atualiza o nome diretamente
+            produto_selecionado['produto'] = produto_novo 
             print(f"{produto_antigo} foi renomeado para {produto_novo}.")
             break
         else:

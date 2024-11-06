@@ -1,3 +1,6 @@
+print("Manual de Uso da Lista de Compras:")
+print("Link para o manual completo: https://www.canva.com/design/DAGViELkgWk/LE5A-2ylL45npgNNPsU-5g/edit?utm_content=DAGViELkgWk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton")
+print("-" * 60)
 # LISTA DE COMPRAS POR CATEGORIA
 lista_compras = {
     'Limpeza': [],
